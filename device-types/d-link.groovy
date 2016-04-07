@@ -1,11 +1,9 @@
-/** D-Link Camera 
+/** Generic IP Camera
  * Supports (at least) the D-Link DCS-930L IP webcam.
  *
  * Author: danny@smartthings.com
  * Author: brian@bevey.org
  * 
- * Author: http://github.com/egid - cleanup, better match the D-Link url format
- * Date: 5/21/14
  */
 
 preferences
@@ -17,7 +15,7 @@ preferences
 }
 
 metadata {
-	definition (name: "D-Link Camera") {
+	definition (name: "Generic IP Camera", namespace: "roydonaldson11", author: "Roy Donaldson") {
 		capability "Image Capture"
 	}
 
