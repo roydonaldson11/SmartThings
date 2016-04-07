@@ -15,7 +15,7 @@ preferences
 }
 
 metadata {
-	definition (name: "Generic IP Camera", namespace: "roydonaldson11", author: "Roy Donaldson") {
+	definition (name: "GenericIPCamera", namespace: "roydonaldson11", author: "Roy Donaldson") {
 		capability "Image Capture"
 	}
 
